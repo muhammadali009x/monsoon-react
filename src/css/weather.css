@@ -1,0 +1,23 @@
+
+.TopLayer{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(121, 121, 122);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+}
+.pDay, .pTodayData{
+    color: #fff;
+    font-weight: 300;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+.tempStatus{
+    width: 6rem;
+    height: 6rem;
+
+}
